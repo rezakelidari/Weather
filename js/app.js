@@ -6,7 +6,7 @@ const err = document.querySelector(".err");
 const result = document.querySelector(".result");
 
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather";
-const appid = "4a672d842a9eb024a0c7a9d737429172";
+const appid = "APP_ID";
 const units = "metric";
 
 localStorage.getItem("city") !== null
